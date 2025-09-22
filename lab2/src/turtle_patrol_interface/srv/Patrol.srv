@@ -1,4 +1,7 @@
-float32 vel
-float32 omega
+float32 vel          # 线速度 (turtlesim linear.x)
+float32 omega        # 角速度 (turtlesim angular.z)
+float32 x            # 目标 X 坐标 (可选，<=0 忽略)
+float32 y            # 目标 Y 坐标 (可选，<=0 忽略)
+float32 theta        # 目标朝向 (可选，绝对朝向，弧度，任意值允许)
 ---
 geometry_msgs/Twist cmd
